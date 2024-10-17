@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    0deg,
+    rgba(78, 25, 142, 1) 20%,
+    rgba(120, 34, 195, 1) 97%
+  );
+}
+
+#container {
+  background-color: #262626;
+  padding: 3rem;
+  border-radius: 8px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #262626;
+}
+
+#input-output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#input,
+#output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  width: 5rem;
+  height: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#inputs,
+#outputs {
+  display: flex;
+}
+
+select {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  height: 30px;
+  width: 2.5rem;
+}
+
+select option {
+  background-color: #262626;
+  border: none;
+}
+
+#icon-converter {
+  color: #ffffff;
+  font-size: 30px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+#actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#actions button {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  padding: 0.6rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #e0e7ff;
+  color: #262626;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition: background-color 0.2s ease-in;
+}
+
+#actions button:hover {
+  background-color: #9ca4be;
+}
